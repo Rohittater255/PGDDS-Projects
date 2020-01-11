@@ -27,16 +27,16 @@ Since each image is of 28 x 28 pixels, and each pixel forms a feature, there are
  - matplotlib
  - seaborn
 
-# Steps
+# Steps Performed
  - Reading and Understanding the Data
  - Data Analysis
  - Data Visualization
  - Scaling the features
  - Splitting the Data into Training and Testing Sets
  - Model Building
-  - Linear Model
-  - Non Linear Model - RBF
-  - Non Linear Model - Poly
+   - Linear Model
+   - Non Linear Model - RBF
+   - Non Linear Model - Poly
  - Grid Search: Hyperparameter Tuning
  - Building and Evaluating the Final Model
 
