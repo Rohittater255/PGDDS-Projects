@@ -44,5 +44,5 @@ Since each image is of 28 x 28 pixels, and each pixel forms a feature, there are
 # Final Model
 The non-linear RBF model with C=10 and gamma = 0.001 is best for our data
 
-# Train Acuracy ~ 95%
+## Train Acuracy ~ 95%
 ## Test Acuracy ~ 92 to 94%
