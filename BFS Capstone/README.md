@@ -1,4 +1,4 @@
-# Business understanding
+# Business Understanding
 CredX is a leading credit card provider that gets thousands of credit card applications every year. But in the past few years, it has experienced an increase in credit loss. The CEO believes that the best strategy to mitigate credit risk is to ‘acquire the right customers’.
 
 In this project, your task is to help CredX identify the right customers using predictive models. Using past data of the bank’s applicants, you need to determine the factors affecting credit risk, create strategies to mitigate the acquisition risk and assess the financial benefit of your project.   
@@ -14,12 +14,12 @@ Sklearn
 Matplotlib & Seaborn
 Numpy & pandas
 
-# Models Created
+# Models Build
 1. Logistic Regression
 2. Random Forest
 3. Decision Trees
 
-# Step Performed
+# Steps Performed
 Part 1 - Importing Libraries & Creating UDF -  
  -	Impoting Libraries       
  -	Creating User Defined Functions              
