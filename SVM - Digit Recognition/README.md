@@ -28,6 +28,18 @@ Since each image is of 28 x 28 pixels, and each pixel forms a feature, there are
  - seaborn
 
 # Steps
+ - i. Reading and Understanding the Data
+ - ii. Data Analysis
+ - iii. Data Visualization
+ - iv. Scaling the features
+ - v. Splitting the Data into Training and Testing Sets
+ - vi. Model Building
+  - Linear Model
+  - Non Linear Model - RBF
+  - Non Linear Model - Poly
+ - vii. Grid Search: Hyperparameter Tuning
+ - viii. Building and Evaluating the Final Model
+
 
 # Final Model
 The non-linear RBF model with C=10 and gamma = 0.001 is best for our data
