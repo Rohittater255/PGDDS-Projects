@@ -8,3 +8,54 @@ There are two data sets in this project: demographic and credit bureau data.
 
 Demographic/application data: This is obtained from the information provided by the applicants at the time of credit card application. It contains customer-level information on age, gender, income, marital status, etc.
 Credit bureau: This is taken from the credit bureau and contains variables such as 'number of times 30 DPD or worse in last 3/6/12 months', 'outstanding balance', 'number of trades', etc.
+
+# Libraries Used
+Sklearn
+Matplotlib & Seaborn
+Numpy & pandas
+
+# Models Created
+1. Logistic Regression
+2. Random Forest
+3. Decision Trees
+
+# Step Performed
+Part 1 - Importing Libraries & Creating UDF -  
+ -	Impoting Libraries       
+ -	Creating User Defined Functions              
+
+Part 2 - Building Model on Demographic Data -   -
+ - i. Data Importing & Data Understanding  
+ - ii. Data Cleaning   
+ - iii. Exploratory Data Analysis
+ - iv. Model Buiding on Non WOE Dataset
+ 	- Data Preparation
+	- Test Train Split
+	- Standardization
+	- Model Building
+ - v. Model Buiding on Woe Dataset   
+ 	 - Calculate WOE & IV
+	 - Create WOE Dataframe   
+	 - Test Train Split   
+	 - Model Building
+
+Part 3 - Building Model on Demographic Data + Credit Data -  
+ - i. Data Importing & Data Understanding  
+ - ii. Data Cleaning   
+ - iii. Exploratory Data Analysis
+ - iv. Model Buiding on Non WOE Dataset
+ 	- Data Preparation
+	- Test Train Split
+	- Standardization
+	- Model Building
+ - v. Model Buiding on Woe Dataset   
+ 	 - Calculate WOE & IV
+	 - Create WOE Dataframe   
+	 - Test Train Split   
+	 - Model Building
+
+Part 4 - Model Selection & Model Evaluation -
+ - i. Selection of Best Model
+ - ii. Model Evaluation
+ - iii. Application Scorecard
+ - iv. Assessing the financial benefit of Model
