@@ -62,12 +62,24 @@ Part 4 - Model Selection & Model Evaluation -
  
 # Selection of Best Model
 FINAL SELECTED MODEL - `LOGISTIC REGRESSION ON WOE DATASET`
+
+
+
 Reasons for selection of this model:
  - Our Business Objective is acquire the right customers, hence we should select model with good Sensitivity & Specificity value
  - From above summary table we can see that, the model having good sensitivity & specificity is Logistic Regression model built on WOE
 Dataset.
  - Hence we are selecting Logistic Regression model build on WOE Dataset as our final model.
  
-# Assessing the financial benefit of selected Model
+# Key Findings
+Top Predictors obtained from Logistic Model are - 
+ - 30DPD_6Months
+ - Avgas_Utilization_12Months
+ - Trades_12Months
+ - Enquires_6Months
+ - Age
+ 
+ # Assessing the financial benefit of selected Model
  - The model can detect 75% of defaulters by targeting 50% applicants.
  - The model can detect 62% of defaulters.
+
