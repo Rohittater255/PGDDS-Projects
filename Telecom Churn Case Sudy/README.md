@@ -10,7 +10,9 @@ To reduce customer churn, telecom companies need to predict which customers are 
 In this project, you will analyse customer-level data of a leading telecom firm, build predictive models to identify customers at high risk of churn and identify the main indicators of churn.
 
 # Libraries Used
-Sklearn Matplotlib & Seaborn Numpy & pandas
+ - Sklearn 
+ - Matplotlib & Seaborn
+ - Numpy & pandas
 
 # Models Build
 Logistic Regression
@@ -18,22 +20,16 @@ Random Forest
 Decision Trees
 
 # Steps Performed
-Part 1 - Importing Libraries & Creating UDF -
-
-Impoting Libraries
-Creating User Defined Functions
-Part 2 - Building Model on Demographic Data - -
-
-i. Data Importing & Data Understanding
-ii. Data Cleaning
-iii. Exploratory Data Analysis
-iv. Model Buiding on Non WOE Dataset
-Data Preparation
-Test Train Split
-Standardization
-Model Building
-v. Model Buiding on Woe Dataset
-Calculate WOE & IV
-Create WOE Dataframe
-Test Train Split
-Model Building
+## Steps Performed
+ - Reading and Understanding the Data
+ - Data Analysis
+ - Data Visualization
+ - Scaling the features
+ - Splitting the Data into Training and Testing Sets
+ - Model Building
+   - Logistic Model
+   - Decision Trees
+   - Random Forest
+ - Selection Of Final Model
+ - Grid Search: Hyperparameter Tuning
+ - Building and Evaluating the Final Model
