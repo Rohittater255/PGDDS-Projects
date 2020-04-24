@@ -1,4 +1,4 @@
-# Digit Recognition with Support Vector Machines
+# Car Price Prediction with Mutiple Linear Regression
 
 This Code will help you predict car price with help of Linear Regression
 
