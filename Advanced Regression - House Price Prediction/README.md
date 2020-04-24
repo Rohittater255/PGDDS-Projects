@@ -21,9 +21,6 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for the management to understand the pricing dynamics of a new market.
 You are required to model the price of cars with the available independent variables. It will be used by the management to understand how exactly the prices vary with the independent variables. They can accordingly manipulate the design of the cars, the business strategy etc. to meet certain price levels. Further, the model will be a good way for management to understand the pricing dynamics of a new market. 
 
-## Data Description
-There is a variable named CarName which is comprised of two parts - the first word is the name of 'car company' and the second is the 'car model'. For example, chevrolet impala has 'chevrolet' as the car company name and 'impala' as the car model name. You need to consider only company name as the independent variable for model building. 
-
 ## Libraries Used
  - sklearn
  - matplotlib
@@ -38,19 +35,26 @@ There is a variable named CarName which is comprised of two parts - the first wo
  - Data Preparation
  - Scaling the features
  - Splitting the Data into Training and Testing Sets
- - Model Building
+ - Model Building with RFE
+ - Perform Regularization
  - Model Evaluation
  - Result Analysis
 
 
 ## Final Model
-The final R2_score of the model is 0.87
+The Adjusted R Square of Train data is :- 0.89
 
 ## Important Variables
-The variables are significant in predicting the price of a car are:-
-
- - Enginesize (Size of Engine)
- - Company_bmw(Cars manufactured by BMW)
- - Enginelocation_rear(Cars having enginelocation as rear )
- - Enginetype_rotor(Cars having enginetype as rotor)
- - Carheight(Height of car)
+The variables are significant in predicting the price of a House are:-
+ - OverallQual
+ - OverallCond
+ - BsmtFinSF1
+ - TotalBsmtSF
+ - GrLivArea
+ - Fireplaces
+ - GarageArea
+ - House Age
+ - MSZoning_RM
+ - Condition2_PosN
+ - Foundation_PConc
+ - SaleCondition_Partial
